@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
+
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                clifford: '#da373d',
+              }
+            }
+          }
+        }
+      </script>
+
+
+
+</head>
+<body>
+    
+
+
+    <header>
+
+        <div>
+            <div class="navbar bg-pink-200 shadow">
+                <div class="navbar-start">
+                  <div class="dropdown">
+                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="h-5 w-5"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke="currentColor">
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="2"
+                          d="M4 6h16M4 12h8m-8 6h16" />
+                      </svg>
+                    </div>
+                    <ul
+                      tabindex="0"
+                      class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow text-bold">
+                      <li><a>Item 1</a></li>
+                      <li>
+                        <a>Parent</a>
+                        <ul class="p-2">
+                          <li><a>Submenu 1</a></li>
+                          <li><a>Submenu 2</a></li>
+                        </ul>
+                      </li>
+                      <li><a>Item 3</a></li>
+                    </ul>
+                  </div>
+                  <a class="btn btn-ghost text-xl"> <span class="  text-red-400">Flower</span>Shop</a>
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                  <ul class="menu menu-horizontal px-1">
+                    <li><a>Home</a></li>
+                    <li>
+                      <details>
+                        <summary>About</summary>
+                        <ul class="p-2">
+                         
+                        </ul>
+                      </details>
+                    </li>
+                    <li><a>Contuct</a></li>
+                    <li><a>Iteam</a></li>
+                  </ul>
+                </div>
+                <div class="navbar-end">
+                  <a class="btn bg-pink-200">Order</a>
+                </div>
+              </div>
+        </div>
+
+
+        <div class="hero bg-pink-100 min-h-full">
+            <div class="hero-content flex-col lg:flex-row-reverse">
+              <img
+                src="img/pngwing 10.png"
+                class="max-w-sm rounded-lg " />
+              <div>
+                <h1 class="text-5xl font-bold">Let's make <br> beautiful flowers a  <br>part of your life.</h1>
+                <p class="py-6">
+                    It is a long established fact that a reader will be distracted by the readable <br> content of a page when looking at its layout. The point of using Lorem Ipsum is <br> that it has a more-or-less normal distribution of letters.
+                </p>
+                <button class="btn btn-primary bg-orange-900">Shop Now</button>
+              </div>
+            </div>
+          </div>
+
+
+        <div>
+
+            <body class="bg-gray-100">
+                <div class="max-w-4xl mx-auto py-12">
+                    <h2 class="text-center text-3xl font-bold mb-6">Our Featured Flowers</h2>
+                    <p class="text-center text-gray-500 mb-12">It is a long established fact that a reader will be distracted by the readable <br> content of a page when looking at its layout.</p>
+                    <div class="grid grid-cols-1 sm:grid-cols-3 gap-8">
+                        <!-- Card 1 -->
+                        <div class="bg-pink-100 rounded-lg shadow-lg overflow-hidden ">
+                            <div class="p-8 text-center">
+                                <img src="img/pngwing 6.png" alt="Pink Flower" class="mx-auto mb-6 rounded-full">
+                                <h3 class="text-lg font-semibold text-gray-800">Pink Flower Tree</h3>
+                            </div>
+                        </div>
+                        <!-- Card 2 -->
+                        <div class="bg-green-100 rounded-lg shadow-lg overflow-hidden">
+                            <div class="p-8 text-center">
+                                <img src="img/pngwing 8.png" alt="Pink Bouquet" class="mx-auto mb-6 rounded-full">
+                                <h3 class="text-lg font-semibold text-gray-800">Pink Flower Tree</h3>
+                            </div>
+                        </div>
+                        <!-- Card 3 -->
+                        <div class="bg-red-100 rounded-lg shadow-lg overflow-hidden">
+                            <div class="p-8 text-center">
+                                <img src="img/pngwing 7.png" alt="Yellow Flower" class="mx-auto mb-6 rounded-full">
+                                <h3 class="text-lg font-semibold text-gray-800">Pink Flower Tree</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+        </div>
+
+
+
+
+        <div>
+        
+        <div class="bg-gray-100">
+            <div class="max-w-5xl mx-auto py-12">
+                <div class="bg-gray-50 p-8 rounded-lg shadow-md flex justify-around items-center">
+                    <!-- Card 1 -->
+                    <div class="flex flex-col items-center text-center">
+                        <img src="img/Group 57.png" alt="Delivery Icon" class="mb-4">
+                        <p class="text-gray-800 font-medium">Same Day Delivery. Click & Collect.</p>
+                    </div>
+                    <!-- Card 2 -->
+                    <div class="flex flex-col items-center text-center">
+                        <img src="img/Group 58.png" alt="Fresh Flowers Icon" class="mb-4">
+                        <p class="text-gray-800 font-medium">Fresh Flowers. Local Growers.</p>
+                    </div>
+                    <!-- Card 3 -->
+                    <div class="flex flex-col items-center text-center">
+                        <img src="img/Group 59.png" alt="Support Icon" class="mb-4">
+                        <p class="text-gray-800 font-medium">24/7 Free Support.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+
+<!-- 25 % off -->
+
+
+
+        <div>
+
+
+            <div class="hero bg-pink-100 min-h-full p-8 md-4">
+                <div class="hero-content flex-col lg:flex-row-reverse">
+                  <img
+                    src="img/pngwing 8.png"
+                    class="max-w-sm rounded-lg " />
+                  <div>
+                    <h1 class="text-4xl font-bold">Hot Deal ! Sale Up To 25% <span class="text-red-500">Off</span> </h1>
+                    <p class="py-6">
+                        It is a long established fact that a reader will be distracted by the readable <br> content of a page when looking at its layout.
+                    </p>
+                    <button class="btn btn-primary">Sign Up</button>
+                  </div>
+                </div>
+              </div>
+
+
+
+
+
+        </div>
+
+
+    </header>
+
+
+    <main>
+
+
+        <div class="bg-gray-100">
+            <!-- Instagram Section -->
+            <div class="max-w-7xl mx-auto py-12">
+                <h2 class="text-center text-3xl font-bold mb-6">Instagram</h2>
+                <p class="text-center text-gray-500 mb-12">It is a long established fact that a reader will be distracted by the readable <br> content of a page when looking at its layout.</p>
+                <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
+                    <!-- Image 1 -->
+                    <div class="bg-white rounded-lg overflow-hidden shadow-md">
+                        <img src="img/Flower 01.png" alt="Flower 1" class="w-full h-auto">
+                    </div>
+                    <!-- Image 2 -->
+                    <div class="bg-white rounded-lg overflow-hidden shadow-md">
+                        <img src="img/Rectangle 4.png" alt="Flower 2" class="w-full h-auto">
+                    </div>
+                    <!-- Image 3 -->
+                    <div class="bg-white rounded-lg overflow-hidden shadow-md">
+                        <img src="img/Rectangle 5.png" alt="Flower 3" class="w-full h-auto">
+                    </div>
+                    <!-- Image 4 -->
+                    <div class="bg-white rounded-lg overflow-hidden shadow-md">
+                        <img src="img/Rectangle 6.png" alt="Flower 4" class="w-full h-auto">
+                    </div>
+                </div>
+            </div>
+        
+            <body class="bg-gray-100">
+                <!-- Subscription Section -->
+                <div class="bg-white py-12">
+                    <div class="max-w-4xl mx-auto bg-gray-50 p-8 rounded-lg shadow-md relative subscription-bg">
+                        <div class="text-center">
+                            <h3 class="text-2xl font-bold mb-2">Get The Latest Deals</h3>
+                            <p class="text-gray-500 mb-6">$30 coupon for first shopping</p>
+                            <form class="flex justify-center">
+                                <input type="email" placeholder="Enter your email here...." class="w-full max-w-md p-4 rounded-l-lg border border-gray-300 focus:outline-none">
+                                <button type="submit" class="bg-pink-500 text-white px-6 rounded-r-lg font-semibold">Subscribe</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </body>
+
+    </main>
+
+
+
+
+
+
+
+
+
+    <footer>
+
+       
+            <!-- Footer -->
+            <footer class="bg-gray-800 text-gray-400 py-12">
+                <div class="container mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8 text-sm">
+                    <div>
+                        <div class="text-white font-bold mb-4">Get Connected</div>
+                        <ul>
+                            <li><a href="#" class="hover:underline">Connectivity</a></li>
+                            <li><a href="#" class="hover:underline">Dashboard</a></li>
+                            <li><a href="#" class="hover:underline">IoT SIM Card</a></li>
+                            <li><a href="#" class="hover:underline">Hologram Hyper</a></li>
+                            <li><a href="#" class="hover:underline">Hologram Nova</a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <div class="text-white font-bold mb-4">Resources</div>
+                        <ul>
+                            <li><a href="#" class="hover:underline">Using Hologram</a></li>
+                            <li><a href="#" class="hover:underline">Docs</a></li>
+                            <li><a href="#" class="hover:underline">Support</a></li>
+                            <li><a href="#" class="hover:underline">Supported Hardware</a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <div class="text-white font-bold mb-4">Pricing</div>
+                        <ul>
+                            <li><a href="#" class="hover:underline">Pricing Overview</a></li>
+                            <li><a href="#" class="hover:underline">Flexible Data</a></li>
+                            <li><a href="#" class="hover:underline">High Volume Data</a></li>
+                            <li><a href="#" class="hover:underline">Enterprise</a></li>
+                            <li><a href="#" class="hover:underline">Coverage Map</a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <div class="text-white font-bold mb-4">Developers</div>
+                        <ul>
+                            <li><a href="#" class="hover:underline">Forum</a></li>
+                            <li><a href="#" class="hover:underline">Projects</a></li>
+                            <li><a href="#" class="hover:underline">Open Source</a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <div class="text-white font-bold mb-4">Company</div>
+                        <ul>
+                            <li><a href="#" class="hover:underline">About Us</a></li>
+                            <li><a href="#" class="hover:underline">Blog</a></li>
+                            <li><a href="#" class="hover:underline">Partnerships</a></li>
+                            <li><a href="#" class="hover:underline">Careers</a></li>
+                        </ul>
+                        <div class="mt-4">
+                            <span class="text-white font-bold mb-2 block">Social</span>
+                            <ul class="flex space-x-4">
+                                <li><a href="#" class="hover:underline">Twitter</a></li>
+                                <li><a href="#" class="hover:underline">Facebook</a></li>
+                                <li><a href="#" class="hover:underline">LinkedIn</a></li>
+                                <li><a href="#" class="hover:underline">GitHub</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="text-center mt-12 text-xs text-gray-600">
+                    <p>©2024 Hologram | <a href="#" class="hover:underline">Terms</a> | <a href="#" class="hover:underline">Privacy</a></p>
+                    <p class="mt-2">All systems operational</p>
+                </div>
+            </footer>
+    </footer>
+
+
+
+
+
+</body>
+</html>
